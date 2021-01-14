@@ -1,0 +1,31 @@
+@import "vars";
+@import "vendor/reset";
+@import "../fonts/stylesheet";
+
+body {
+  margin: 0;
+  font-family: Whitney Book, Segoe UI, sans-serif;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+h1, h2, h3.h4, h5, h5 {
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+
+/*Blocks*/
+@import "blocks/header";
+@import "blocks/ capabilities";
+@import "blocks/footer";
+@import "blocks/modal";

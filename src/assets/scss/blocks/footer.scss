@@ -1,0 +1,157 @@
+.footer {
+  margin: 100px 0;
+}
+
+.footer__title {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(90deg, #2D1686 0%, #4E33B5 100%);
+  border-radius: 10px;
+  height: 371px;
+  width: 100%;
+}
+
+.footer__text {
+  margin-top: 60px;
+  margin-left: 70px;
+  font-family: Whitney, sans-serif;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 45px;
+  width: 54%;
+
+  color: #FFFFFF;
+}
+
+.btn {
+  font-family: Whitney, sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 100%;
+
+  margin: 45px 70px;
+  outline: none;
+  width: 222px;
+  height: 50px;
+  color: white;
+  background-color: #F25B24;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #e05d2c;
+  cursor: pointer;
+}
+
+.footer__img_1 {
+  width: 571px;
+  height: 322px;
+  z-index: 5;
+  position: absolute;
+  right: 0;
+  bottom: 15px;
+}
+
+.footer__img_2 {
+  width: 645px;
+  height: 330px;
+  z-index: 1;
+  right: 0;
+  bottom: 12px;
+  position: absolute;
+}
+
+@media(max-width: 1168px) {
+  .footer__text {
+    font-size: 27px;
+  }
+}
+
+@media(max-width: 1016px) {
+  .footer__text {
+    font-size: 24px;
+  }
+}
+
+@media(max-width: 976px) {
+  .footer__text {
+    font-size: 21px;
+  }
+}
+
+@media(max-width: 976px) {
+  .footer__text {
+    z-index: 10;
+    line-height: 30px;
+  }
+  .btn {
+    z-index: 10;
+  }
+  .footer__img_1 {
+    width: 100%;
+    height: auto;
+  }
+
+}
+
+@media(max-width: 712px) {
+  .footer__text {
+    font-size: 19px;
+  }
+}
+
+@media(max-width: 656px) {
+  .footer__text {
+    font-size: 17px;
+  }
+}
+
+@media(max-width: 568px) {
+  .footer__text {
+    font-size: 16px;
+  }
+}
+
+@media(max-width: 540px) {
+  .footer__text {
+    font-size: 14px;
+  }
+  .btn {
+    width: 190px;
+    height: 38px;
+  }
+}
+
+@media(max-width: 589px) {
+  .footer__text {
+    font-size: 17px;
+    line-height: 22px;
+  }
+  .footer__title {
+    height: 500px;
+  }
+
+}
+
+@media(max-width: 473px) {
+  .footer__text {
+    font-size: 15px;
+    line-height: 20px;
+  }
+}
+
+@media(max-width: 400px) {
+  .footer__text {
+    font-size: 14px;
+  }
+}
+
+
+
+
+
+
+
