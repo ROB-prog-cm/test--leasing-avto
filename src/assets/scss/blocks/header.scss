@@ -10,7 +10,7 @@
   justify-content: space-between;
 
   &__photo {
-    margin-top: 37px;
+    margin-top: 27px;
   }
 }
 
@@ -41,15 +41,33 @@
   margin-right: 10px;
 }
 
-.header__photo_1 {
-  margin-left: 15px;
-}
 
 .inner {
   margin: 0 20px;
   display: flex;
   height: 760px;
   align-items: center;
+
+  &__title {
+    width: 563px;
+    font-family: Whitney, sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 120%;
+  }
+
+  &__subtitle {
+    font-family: Whitney, sans-serif;
+    font-weight: 350;
+    font-size: 24px;
+    line-height: 31px;
+    margin: 45px 0;
+  }
+
+ &__photo {
+    align-items: baseline;
+    display: flex;
+  }
 }
 
 .element__title {
@@ -58,26 +76,7 @@
   flex-direction: column;
 }
 
-.header__title {
-  width: 563px;
-  font-family: Whitney, sans-serif;
-  font-weight: 600;
-  font-size: 50px;
-  line-height: 120%;
-}
 
-.header__subtitle {
-  font-family: Whitney, sans-serif;
-  font-weight: 350;
-  font-size: 24px;
-  line-height: 31px;
-  margin: 45px 0;
-}
-
-.header__photo {
-  align-items: baseline;
-  display: flex;
-}
 
 .button {
   font-family: Whitney, sans-serif;
@@ -108,32 +107,43 @@
     display: flex;
     align-items: center;
   }
-  .header__title {
+  .inner__title {
     font-size: 26px;
     margin-top: 55px;
   }
-  .header__subtitle {
+  .inner__subtitle {
     font-size: 14px;
     margin: 30px 0;
   }
-  .header__img {
+  .inner__img {
     width: 100%;
   }
-
+  .nav__link_photo{
+    margin-left: 60px;
+  }
 }
 
 @media(max-width: 700px) {
   .nav__link_photo {
     margin-left: 40px;
   }
-  .header__title {
+  .inner__title {
     font-size: 23px;
   }
-  .header__subtitle {
+  .inner__subtitle {
     font-size: 7px;
     margin: 14px 0;
   }
-
+  .nav__photo{
+    margin-top: 21px;
+  }
+  .nav__link_photo{
+    margin-left: 60px;
+  }
+.button{
+  width: 180px;
+  height: 38px;
+}
 }
 
 @media(max-width: 660px) {
@@ -143,8 +153,8 @@
   .nav__link {
     font-size: 15px
   }
-  .header__title {
-    width: auto;
+  .inner__title {
+    font-size: 17px;
   }
 }
 
@@ -152,16 +162,16 @@
   .nav__link_photo {
     margin-left: 20px;
   }
-  .header__title {
+  .inner__title {
     font-size: 17px;
   }
 }
 
 @media(max-width: 420px) {
-  .header__subtitle {
+  .inner__subtitle {
     font-size: 7px;
   }
-  .header__title {
+  .inner__title {
     font-size: 13px;
   }
   .nav__link {
