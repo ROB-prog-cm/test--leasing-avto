@@ -41,6 +41,10 @@
   border-radius: 4px;
   border: none;
   cursor: pointer;
+  text-decoration: none;
+  align-items: center;
+  text-align: center;
+  padding: 15px 0;
 }
 
 .btn:hover {
@@ -124,6 +128,7 @@
   .btn {
     width: 190px;
     height: 38px;
+    padding: 10px 0;
   }
 }
 
